@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agora Certificate Program - HW 2</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div id="container">
+        <div id="left-screen">
+            <img src="assets/agora-logo-rbg-blue.png" id="logo-box" />
+            <div>
+                <form action="./video.html" onsubmit="return validateLogin()">
+                    <br>
+                    <input type="text" id="email" class="blue-border" placeholder="Email" />
+                    <br>
+                    <input type="password" id="password" class="blue-border" placeholder="Password"/>
+                    <button id="submit-button" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+        <div id="right-screen">
+            <div id="circle-box">
+                <img src="assets/computer-image.png" id="computer-box"/>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    <script src="./login.js"></script>
+</body>
+</html>

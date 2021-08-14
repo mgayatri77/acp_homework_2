@@ -1,0 +1,45 @@
+.banner {
+    background-color: #099dfd;
+    color: white;
+}
+
+.banner-text {
+    padding: 8px 20px;
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.player {
+    width: 480px;
+    height: 320px;
+}
+
+.player-name {
+    margin: 8px 0;
+}
+
+@media (max-width: 640px) {
+    .player {
+        width: 320px;
+        height: 240px;
+    }
+}
+
+.video-button {
+    background-color: #099dfd;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.25rem;
+}
+
+.video-button:hover {
+    background-color: #0077c7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
